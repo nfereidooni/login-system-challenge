@@ -1,10 +1,8 @@
 import { React } from "react";
 import "./style.css";
-// import { MDBRow, MDBCol, MDBBtn, MDBInput } from 'mdbreact';
-import { Row, Col, Button, Form, FloatingLabel, Image } from 'react-bootstrap';
+import { Row, Col, Carousel, Button, Form, FloatingLabel, Image } from 'react-bootstrap';
 import prepr_logo from "../assets/img/prepr-logo.png"
 import { Link } from "react-router-dom";
-
 
 
 function SignUp() {
@@ -15,28 +13,83 @@ function SignUp() {
 
             <Row>
                 <Col sm={12} md={8} className="leftSide">
-                    <div>
-                    
-                    LEFT
-
+                    <div className="unlockInfinite text-center">
+                        <Image src="https://d2qgo50yy98y8.cloudfront.net/public/front/img/registerBackground.jpg" alt="" className="img-fluid" />
                     </div>
+                    <Carousel>
+                        <Carousel.Item interval={2000}>
+                            <img
+                            className="d-block w-100"
+                            src="https://d2qgo50yy98y8.cloudfront.net/public/front/img/slide/1.png"
+                            alt="Welcome to Prepr"
+                            />
+                            <div className="carouselCaption text-center text-white">
+                                <h3>Welcome to Prepr</h3>
+                                <p>Explore challenges, join a Lab, create projects and showcase all your skills in one page.</p>
+                            </div>
+                        </Carousel.Item>
+                        <Carousel.Item interval={2000}>
+                            <img
+                            className="d-block w-100"
+                            src="https://d2qgo50yy98y8.cloudfront.net/public/front/img/slide/2.png"
+                            alt="Explore Challenges"
+                            />
+                            <div className="carouselCaption text-center text-white">
+                                <h3>Explore Challenges</h3>
+                                <p>Explore our collection of challenges in the network and select the ones you're most passionate about.</p>
+                            </div>
+                        </Carousel.Item>
+                        <Carousel.Item interval={2000}>
+                            <img
+                            className="d-block w-100"
+                            src="https://d2qgo50yy98y8.cloudfront.net/public/front/img/slide/3.png"
+                            alt="Third slide"
+                            />
+                            <div className="carouselCaption text-center text-white">
+                                <h3>Discover &amp; Join Labs Near You</h3>
+                                <p>Labs are places where like-minded people co-create together by co-learning to co-Lab and co-solve real world challenges.</p>
+                            </div>
+                        </Carousel.Item>
+                        <Carousel.Item interval={2000}>
+                            <img
+                            className="d-block w-100"
+                            src="https://d2qgo50yy98y8.cloudfront.net/public/front/img/slide/4.png"
+                            alt="Third slide"
+                            />
+                            <div className="carouselCaption text-center text-white">
+                                <h3>Build Your Verified Project Portfolio</h3>
+                                <p>Build and verify your portfolio of projects on the Prepr Lab network.</p>
+                            </div>
+                        </Carousel.Item>
+                        <Carousel.Item interval={2000}>
+                            <img
+                            className="d-block w-100"
+                            src="https://d2qgo50yy98y8.cloudfront.net/public/front/img/slide/5.png"
+                            alt="Third slide"
+                            />
+                            <div className="carouselCaption text-center text-white">
+                                <h3>Showcase Your Skills &amp; Achievements</h3>
+                                <p>Earn Prepr Points by tackling challenges, joining labs, creating projects, building teams and providing feedback on other projects.</p>
+                            </div>
+                        </Carousel.Item>
+                        <Carousel.Item interval={2000}>
+                            <img
+                            className="d-block w-100"
+                            src="https://d2qgo50yy98y8.cloudfront.net/public/front/img/slide/6.png"
+                            alt="Third slide"
+                            />
+                            <div className="carouselCaption text-center text-white">
+                                <h3>Time to Unlock Your Learning Potential</h3>
+                                <p>Future proof your skills by completing challenges and get your projects showcased!</p>
+                            </div>
+                        </Carousel.Item>
+                    </Carousel>
                 </Col>
+
                 <Col sm={12} md={4} className="rightSide">
                     <Image src={prepr_logo}/>
                     <Form>
-                    {/* <div className="grey-text"> */}
-                        {/* <MDBInput label="Your name" icon="user" group type="text" validate error="wrong"
-                            success="right" />
-                        <MDBInput label="Your email" icon="envelope" group type="email" validate error="wrong"
-                            success="right" />
-                        <MDBInput label="Confirm your email" icon="exclamation-triangle" group type="text" validate
-                            error="wrong" success="right" />
-                        <MDBInput label="Your password" icon="lock" group type="password" validate />
-                        </div>
-                        <div className="text-center">
-                        <MDBBtn color="primary">Register</MDBBtn>
-                        </div> */}
-         
+
                         <FloatingLabel    
                         controlId="floatingInput"
                         label="First Name*"

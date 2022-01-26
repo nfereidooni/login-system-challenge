@@ -9,12 +9,17 @@
     padding: 10%;
 }
 
-/* .signUpBox {
-    background-color: rgb(130, 201, 124);
-} */
+.unlockInfinite {
+    
+}
+
+.carouselCaption {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 .leftSide {
-    background-color: rgb(130, 201, 124);
+    background-color: #add489;
 }
 
 .rightSide {
