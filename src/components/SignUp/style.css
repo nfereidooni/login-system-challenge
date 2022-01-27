@@ -47,6 +47,18 @@ a:active {
     margin-right: 20px;
 }
 
+.carouselImg {
+    height: 200px;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .carouselImg {
+        width: 100%;
+        height: auto;
+    }
+}
+
 .carouselCaption {
     margin-top: 50px;
     margin-bottom: 50px;

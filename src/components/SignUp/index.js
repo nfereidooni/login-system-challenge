@@ -16,10 +16,10 @@ function SignUp() {
                     <div className="unlockInfinite text-center">
                         <Image src="https://d2qgo50yy98y8.cloudfront.net/public/front/img/registerBackground.jpg" alt="" className="img-fluid" />
                     </div>
-                    <Carousel className="carousel">
+                    <Carousel className="carousel justify-content-center">
                         <Carousel.Item interval={2000}>
                             <img
-                            className="d-block w-100"
+                            className="carouselImg d-block"
                             src="https://d2qgo50yy98y8.cloudfront.net/public/front/img/slide/1.png"
                             alt="Welcome to Prepr"
                             />
@@ -30,7 +30,7 @@ function SignUp() {
                         </Carousel.Item>
                         <Carousel.Item interval={2000}>
                             <img
-                            className="d-block w-100"
+                            className="carouselImg d-block"
                             src="https://d2qgo50yy98y8.cloudfront.net/public/front/img/slide/2.png"
                             alt="Explore Challenges"
                             />
@@ -41,7 +41,7 @@ function SignUp() {
                         </Carousel.Item>
                         <Carousel.Item interval={2000}>
                             <img
-                            className="d-block w-100"
+                            className="carouselImg d-block"
                             src="https://d2qgo50yy98y8.cloudfront.net/public/front/img/slide/3.png"
                             alt="Third slide"
                             />
@@ -52,7 +52,7 @@ function SignUp() {
                         </Carousel.Item>
                         <Carousel.Item interval={2000}>
                             <img
-                            className="d-block w-100"
+                            className="carouselImg d-block"
                             src="https://d2qgo50yy98y8.cloudfront.net/public/front/img/slide/4.png"
                             alt="Third slide"
                             />
@@ -63,7 +63,7 @@ function SignUp() {
                         </Carousel.Item>
                         <Carousel.Item interval={2000}>
                             <img
-                            className="d-block w-100"
+                            className="carouselImg d-block"
                             src="https://d2qgo50yy98y8.cloudfront.net/public/front/img/slide/5.png"
                             alt="Third slide"
                             />
@@ -74,7 +74,7 @@ function SignUp() {
                         </Carousel.Item>
                         <Carousel.Item interval={2000}>
                             <img
-                            className="d-block w-100"
+                            className="carouselImg d-block"
                             src="https://d2qgo50yy98y8.cloudfront.net/public/front/img/slide/6.png"
                             alt="Third slide"
                             />
