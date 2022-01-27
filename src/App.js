@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css"
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import SignUp from "./components/SignUp";
 import Login from "./components/Login";
 import Footer from "./components/Footer";
@@ -8,16 +8,11 @@ import './App.css';
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-          <Switch>
-            <Route exact path="/signup">
-              <SignUp />
-            </Route>
-            <Route path="/login">
-              <Login />
-            </Route>
-          </Switch>
-          <Footer />
-          
+      <Routes>
+        <Route exact path="/" element={<SignUp />} />
+        <Route exact path="/login" element={<Login />} />
+      </Routes>
+      <Footer />
     </Router>
   );
 }

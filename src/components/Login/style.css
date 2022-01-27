@@ -1,0 +1,24 @@
+a:link {
+    color: darkgreen;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+a:hover {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:active {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.unlockInfinite {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+}
