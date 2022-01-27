@@ -12,11 +12,11 @@ function SignUp() {
         <div className="signUpBox">
 
             <Row>
-                <Col sm={12} md={8} className="leftSide">
+                <Col sm={12} md={8} lg={6} className="leftSide">
                     <div className="unlockInfinite text-center">
                         <Image src="https://d2qgo50yy98y8.cloudfront.net/public/front/img/registerBackground.jpg" alt="" className="img-fluid" />
                     </div>
-                    <Carousel>
+                    <Carousel className="carousel">
                         <Carousel.Item interval={2000}>
                             <img
                             className="d-block w-100"
@@ -86,8 +86,12 @@ function SignUp() {
                     </Carousel>
                 </Col>
 
-                <Col sm={12} md={4} className="rightSide">
-                    <Image src={prepr_logo}/>
+                <Col sm={12} md={4} lg={6} className="rightSide pb-4">
+
+                    <div className="preprLogo text-center">
+                        <Image src={prepr_logo}/>
+                    </div>
+                    
                     <Form>
 
                         <FloatingLabel    
@@ -192,19 +196,19 @@ function SignUp() {
                             <Form.Control type="text" placeholder="Referral Code" />
                         </FloatingLabel>
 
-                        <Form.Group>
+                        <Form.Group className="policyAgreement">
                             <Form.Text>
-                            By registering, you agree to the Prepr Terms of Use, Privacy Policy and Cookie Policy
+                            By registering, you agree to the <a href="https://prepr.org/terms-of-use/" target="_blank" rel="noreferrer">Prepr Terms of Use</a>, <a href="https://prepr.org/privacy-policy/" target="_blank" rel="noreferrer">Privacy Policy and Cookie Policy</a>.
                             </Form.Text>
                         </Form.Group>
 
-                        <Form.Group className="text-center">
-                            <Button variant="primary" type="submit">
+                        <Form.Group className="text-center mb-2">
+                            <Button variant="success" type="submit">
                                 Register
                             </Button>
                         </Form.Group>
 
-                        <Form.Group className="text-center">
+                        <Form.Group className="loginText text-center">
                             <Form.Text>
                             Already have an account? 
                             <br/>
@@ -212,7 +216,7 @@ function SignUp() {
                             </Form.Text>
                         </Form.Group>
 
-                        <Form.Group className="text-center">
+                        <Form.Group className="orgText text-center">
                             <Form.Text>
                             Are you an organization?
                             <br/>
