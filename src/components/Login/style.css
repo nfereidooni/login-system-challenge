@@ -16,9 +16,43 @@ a:active {
     text-decoration: none;
 }
 
+.backgroundSectionLogin {
+    background: rgb(9,25,36);
+    background: linear-gradient(125deg, rgba(9,25,36,1) 0%, rgba(28,45,61,1) 12%, rgba(135,163,154,1) 100%);
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 15%
+}
+
+.leftSideLogin {
+    background-color: #add489;
+
+}
+
 .unlockInfinite {
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 10%;
+}
+
+.leftBullets {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.icon {
+    display: inline-block;
+    width: 50px;
+    vertical-align: middle;
+}
+
+.rightSideLogin {
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }

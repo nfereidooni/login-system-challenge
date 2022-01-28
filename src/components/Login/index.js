@@ -8,20 +8,25 @@ import { Link } from "react-router-dom";
 function SignUp() {
 
   return (
-    <div className="backgroundSection container-fluid">
-        <div className="signUpBox">
+    <div className="backgroundSectionLogin container-fluid">
+        <div className="LoginBox">
 
             <Row>
-                <Col sm={12} md={8} lg={6} className="leftSide">
+                <Col sm={12} md={6} className="leftSideLogin">
                     <div className="unlockInfinite text-center">
                         <Image src="https://d2qgo50yy98y8.cloudfront.net/public/front/img/registerBackground.jpg" alt="" className="img-fluid" />
                     </div>
 
-                    TEST 1 2 3
+                    <div className="leftBullets text-white">
+                        <p className="bullet"><span className="icon"><i class="fas fa-rocket fa-2x"></i></span> Join Challenges, Labs and Projects.</p>
+                        <p className="bullet"><span className="icon"><i class="fas fa-shapes fa-2x"></i></span> Showcase Your Skills &amp; Portfolio.</p>
+                        <p className="bullet"><span className="icon"><i class="fas fa-handshake fa-2x"></i></span> Grow Your Network.</p>
+                        <p className="bullet"><span className="icon"><i class="fas fa-medal fa-2x"></i></span> Get Recognized.</p>
+                    </div>
                     
                 </Col>
 
-                <Col sm={12} md={4} lg={6} className="rightSide pb-4">
+                <Col sm={12} md={6} className="rightSideLogin pb-4">
 
                     <div className="preprLogo text-center">
                         <Image src={prepr_logo}/>
@@ -43,7 +48,7 @@ function SignUp() {
                             <Form.Control type="password" placeholder="Password*" />
                         </FloatingLabel>
 
-                        <Form.Group className="forgotPassword text-right">
+                        <Form.Group className="forgotPassword d-flex justify-content-end">
                             <Form.Text>
                             <a href="http://preprlabs.org/password/reset">Forgot?</a>
                             </Form.Text>
@@ -57,23 +62,16 @@ function SignUp() {
 
                         <Form.Group className="loginText text-center">
                             <Form.Text>
-                            Already have an account? 
+                            Don't have an account? 
                             <br/>
-                            <Link to="/login">Login</Link>
-                            </Form.Text>
-                        </Form.Group>
-
-                        <Form.Group className="orgText text-center">
-                            <Form.Text>
-                            Are you an organization?
-                            <br/>
-                            <Link to="/organization/register">Organization Register</Link>
+                            <Link to="/">Sign Up</Link>
                             </Form.Text>
                         </Form.Group>
 
                     </Form>
                 </Col>
             </Row>
+
         </div>
     </div>
   );
