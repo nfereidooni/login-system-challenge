@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/login-system-challenge/static/css/main.9ea2f262.css",
+    "main.js": "/login-system-challenge/static/js/main.40c913ed.js",
+    "static/js/787.44c9fa27.chunk.js": "/login-system-challenge/static/js/787.44c9fa27.chunk.js",
+    "index.html": "/login-system-challenge/index.html",
+    "main.9ea2f262.css.map": "/login-system-challenge/static/css/main.9ea2f262.css.map",
+    "main.40c913ed.js.map": "/login-system-challenge/static/js/main.40c913ed.js.map",
+    "787.44c9fa27.chunk.js.map": "/login-system-challenge/static/js/787.44c9fa27.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ea2f262.css",
+    "static/js/main.40c913ed.js"
+  ]
+}
