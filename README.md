@@ -29,8 +29,8 @@ Live Website: https://nfereidooni.github.io/login-system-challenge
 
 ## Screenshots
 
-![Challenge Light Mode Screenshot](/src/components/assets/img/prepr_light-mode.PNG)
-![Challenge Dark Mode Screenshot](/src/components/assets/img/prepr_dark-mode.PNG)
+![Challenge Login Page Screenshot](/src/components/assets/img/prepr_login_screenshot.PNG)
+![Challenge Signup Page Screenshot](/src/components/assets/img/prepr_signup_screenshot.PNG)
 
 ## License:
 MIT LICENSE
