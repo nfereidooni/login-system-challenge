@@ -208,6 +208,18 @@ function SignUp() {
                             </Button>
                         </Form.Group>
 
+                        <Form.Group className="orText text-center">
+                            <Form.Text>
+                            OR 
+                            </Form.Text>
+                        </Form.Group>
+
+                        <Form.Group className="text-center mb-2">
+                            <Button variant="primary" type="submit">
+                                Continue with LinkedIn
+                            </Button>
+                        </Form.Group>
+
                         <Form.Group className="loginText text-center">
                             <Form.Text>
                             Already have an account? 
