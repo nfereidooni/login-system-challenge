@@ -5,7 +5,7 @@ import prepr_logo from "../assets/img/prepr-logo.png"
 import { Link } from "react-router-dom";
 
 
-function SignUp() {
+function Login() {
 
   return (
     <div className="backgroundSectionLogin container-fluid">
@@ -90,4 +90,4 @@ function SignUp() {
   );
 }
 
-export default SignUp;
+export default Login;
